@@ -1,11 +1,11 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
-const char* ssid = "BandOfBrothers";
-const char* password = "HOMEBARIBAL9";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOURPASSWORD";
 const char* mqttServer = "192.168.0.242";
 const int mqttPort = 1883;
 const char* mqttUser = "EwoutDoms";
-const char* mqttPassword = "SMOD3344";
+const char* mqttPassword = "YOURPASSWORD";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
